@@ -1,0 +1,137 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monti viajes - Mexico</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <header>
+        <div class="alert alert-secondary" role="alert" style="display: none;margin:0;" id="alertUser"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Mexico</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Ver mas">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#destinationOverview">¿Que hacer en mexico?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Reservar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#map-container">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#temperature">Temperaturas y costos</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 hidden-md-down" id="frmLogin">
+              <input class="form-control mr-sm-2" type="text" id="txtUser" placeholder="Usuario" aria-label="Search">
+              <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button>
+            </form>
+          </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1 class="text-center text-bold main-title">
+            <span class="text-success">M</span>
+            <span class="text-info">E</span>
+            <span class="text-warning">X</span>
+            <span class="text-warning">I</span>
+            <span class="text-danger">C</span>
+            <span class="text-success">O</span>
+        </h1>
+        <img src="https://www.mexicodesconocido.com.mx/sites/default/files/styles/adaptive/public/fichas-destino/razones-amamos-playas-mexicanas-depostiphotos-1200.jpg" alt "Tulum" style="width: 100%" />
+        <hr class="my-4" />
+        <section id="destinationOverview" class="destinationDescription">
+            <h3 class="text-info">Sobre Mexico...</h3>
+            <p>El territorio mexicano tiene una superficie de 1 964 375 km²,2​ por lo que es el decimocuarto país más extenso del mundo y el tercero más grande de América Latina. Limita al norte con los Estados Unidos de América a lo largo de una frontera de 3155 km,2​ mientras que al sur tiene una frontera de 958 km con Guatemala2​ y 276 km con Belice;2​ las costas del país limitan al oeste con el océano Pacífico y al este con el golfo de México y el mar Caribe, sumando 9330 km,2​ por lo que es el tercer país americano con mayor longitud en sus costas.</p>
+            <p>México es el undécimo país más poblado del mundo, con una población estimada en más de 124 millones de personas en 2017,3​ la mayoría de las cuales tienen como lengua materna el español, al que el estado reconoce como lengua nacional junto a 67 lenguas indígenas propias de la nación.17​ En el país se hablan alrededor de 287 idiomas;18​ debido a las características de su población, es el país hispanohablante más poblado,19​ así como el séptimo país con mayor diversidad lingüística en el mundo.</p>
+            <img src="https://www.entornoturistico.com/wp-content/uploads/2017/10/isla-holbox-en-Quintana-Roo-660x330.jpg" alt="Holbox" style="float: left;margin-right: 15px;max-width: 100%;"/>
+            <p>La presencia humana en México se remonta a 14 000 años antes del presente.21​ Después de miles de años de desarrollo cultural, surgieron en el territorio mexicano las culturas mesoamericanas, aridoamericanas y oasisamericanas. El actual territorio de México fue el principal y mayor escenario del pueblo azteca y, en parte, del pueblo maya, las dos civilizaciones más importantes de la América precolombina. Tras casi 300 años de dominación española, México inició la lucha por su independencia política en 1810. Posteriormente, durante cerca de un siglo el país se vio envuelto en una serie de guerras internas e invasiones extranjeras que tuvieron repercusiones en todos los ámbitos de la vida de los mexicanos. Durante buena parte del siglo XX (principalmente la primera mitad) tuvo lugar un período de gran crecimiento económico en el marco de una política dominada por un solo partido político.</p>
+            <p>La presencia humana en México se remonta a 14 000 años antes del presente.21​ Después de miles de años de desarrollo cultural, surgieron en el territorio mexicano las culturas mesoamericanas, aridoamericanas y oasisamericanas. El actual territorio de México fue el principal y mayor escenario del pueblo azteca y, en parte, del pueblo maya, las dos civilizaciones más importantes de la América precolombina. Tras casi 300 años de dominación española, México inició la lucha por su independencia política en 1810. Posteriormente, durante cerca de un siglo el país se vio envuelto en una serie de guerras internas e invasiones extranjeras que tuvieron repercusiones en todos los ámbitos de la vida de los mexicanos. Durante buena parte del siglo XX (principalmente la primera mitad) tuvo lugar un período de gran crecimiento económico en el marco de una política dominada por un solo partido político.</p>
+        </section>
+        <hr class="my-4" />
+        <section id="gallery" class="gallery" style="display: none;">
+            <h3 class="text-info">Galeria de imagenes</h3>
+            <div id="slides"
+                class="cycle-slideshow cycle-autoinit"
+                data-cycle-fx="scrollHorz"
+                data-cycle-pause-on-hover="true"
+                data-cycle-speed="100">
+                <img src="img/example-slide-1.jpg" alt="Photo 1" width="100%" height="100%">
+                <img src="img/example-slide-2.jpg" alt="Photo 2" width="100%" height="100%">
+                <img src="img/example-slide-3.jpg" alt="Photo 3" width="100%" height="100%">
+                <img src="img/example-slide-4.jpg" alt="Photo 4" width="100%" height="100%">
+            </div>
+        </section>
+
+        <hr class="my-4" />
+
+        <div class="row">
+          <section id="contact" class="contact col-lg-6">
+              <h3 class="text-info">Formulario de contacto</h3>
+              <form method="post" action="/" id="frmContact" class="frmContact">
+                  <div class="frmItem">
+                      <label for="name">Nombre</label>
+                      <input id="name" type="text" placeholder="Ingrese su nombre..." class="form-control required" />
+                  </div>
+                  <div class="frmItem">
+                      <label for="lastName">Apellido</label>
+                      <input id="lastName" type="text" placeholder="Ingrese su Apellido..." class="form-control required" />
+                  </div>
+                  <div class="frmItem">
+                      <label for="phone">Telefono</label>
+                      <input id="phone" type="text" placeholder="Ingrese su Telefono..." class="form-control number" />
+                  </div>
+                  <div class="frmItem">
+                      <label for="email">Email</label>
+                      <input id="email" type="text" placeholder="Ingrese su Email..." class="form-control email" />
+                  </div>
+                  <div class="frmItem">
+                      <label for="consult">Consulta</label>
+                      <textarea id="consult" class="form-control required"></textarea>
+                  </div>
+                  <button id="frmSubmit" class="btn btn-primary" type="submit">Enviar</button>
+              </form>
+          </section>
+          <section id="map-container" class="col-lg-6">
+              <h3 class="text-info">Nuestra ubicacion</h3>
+              <div id="map"></div>
+          </section>
+        </div>
+
+        <section id="temperature" class="temperature-prices">
+            <h3 class="text-info">Temperaturas y precios promedio</h3>
+            <div class="months-info-container">
+                <div class="months clearfix"></div>
+                <div class="next fas fa-angle-right"></div>
+                <div class="prev fas fa-angle-left"></div>
+            </div>
+        </section>
+    </section>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr8ZfYwUL6M1QMygnr7oJg2b_6_DJJuqw&callback=initMap" type="text/javascript"></script>
+
+    <footer class="page-footer font-small bg-dark">
+        <div class="footer-copyright text-white text-center py-3">Powered by Gonzalo Montero | 2018</div>
+    </footer>
+</body>
+</html>
